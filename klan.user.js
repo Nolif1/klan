@@ -138,7 +138,7 @@ $('body').append(guiDiv);
             clans.forEach((clan, index) => {
                 updateOnlineCount(clan, index);
             });
-        }, 15000);
+        }, 10000);
     }
 
     $('#addClan').on('click', function() {
