@@ -27,16 +27,26 @@
     });
     $('body').append(button);
 
-    const guiDiv = $(`
-        <div id="clanGui" style="display: none; position: fixed; top: 50px; right: 10px; z-index: 1000; background-color: white; border: 1px solid #ccc; border-radius: 5px; padding: 10px; width: 300px;">
-            <input type="text" id="clanName" placeholder="Wyświetlana nazwa własna" style="width: 100%; margin-bottom: 5px;">
-            <input type="text" id="clanUrl" placeholder="URL klanu" style="width: 100%; margin-bottom: 5px;">
-            <input type="number" id="clanNotifyCount" placeholder="Ilość osób, od której przyjdzie powiadomienie" style="width: 100%; margin-bottom: 5px;">
-            <button id="addClan" style="width: 100%; padding: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px; cursor: pointer;">dodaj</button>
-            <div id="clanList" style="margin-top: 10px;"></div>
+const guiDiv = $(`
+    <div id="clanGui" style="display: none; position: fixed; top: 50px; right: 10px; z-index: 1000; background-color: white; border: 1px solid #ccc; border-radius: 5px; padding: 10px 10px 50px 10px; width: 300px;">
+        <input type="text" id="clanName" placeholder="Wyświetlana nazwa własna" style="width: 100%; margin-bottom: 5px;">
+        <input type="text" id="clanUrl" placeholder="URL klanu" style="width: 100%; margin-bottom: 5px;">
+        <input type="number" id="clanNotifyCount" placeholder="Ilość osób, od której przyjdzie powiadomienie" style="width: 100%; margin-bottom: 5px;">
+        <button id="addClan" style="width: 100%; padding: 5px; background-color: #189a21; color: white; border: none; border-radius: 5px; cursor: pointer;">dodaj</button>
+        <div id="clanList" style="margin-top: 10px;"></div>
+        <div id="footer" style="position: absolute; bottom: 10px; right: 10px; text-align: right; color: #666; font-size: 10px;">
+            <span>dodatek stworzony przez Nolifequ</span>
+            <a href="https://discordapp.com/users/442051476928593920/" target="_blank" style="margin-left: 5px;">
+                <img src="https://i.imgur.com/dmGpjfi.gif" alt="Nolifequ" style="width: 16px; height: 24px; vertical-align: middle;">
+            </a>
         </div>
-    `);
-    $('body').append(guiDiv);
+    </div>
+`);
+$('body').append(guiDiv);
+
+    $('#checkClan').on('click', function() {
+        $('#clanGui').toggle();
+    });
 
     const audio = new Audio('https://cdn.pixabay.com/audio/2024/02/19/audio_e4043ea6be.mp3');
     const notificationSent = {};
@@ -114,7 +124,7 @@
                     notificationSent[clan.name] = true;
                 }
             } else {
-                onlineCountElement.css('color', ''); 
+                onlineCountElement.css('color', '');
                 notificationSent[clan.name] = false;
             }
         }).catch(error => {
@@ -130,10 +140,6 @@
             });
         }, 15000);
     }
-
-    button.on('click', function() {
-        guiDiv.toggle();
-    });
 
     $('#addClan').on('click', function() {
         const clanName = $('#clanName').val();
