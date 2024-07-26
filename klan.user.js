@@ -3,6 +3,7 @@
 // @version      2.0
 // @description  Pokazuje liczbę aktywnych osób w wybranych klanach
 // @author       Nolifequ
+// @icon         https://i.imgur.com/dmGpjfi.gif
 // @match        https://fobos.margonem.pl/
 // @grant        GM_xmlhttpRequest
 // @connect      staticinfo.margonem.pl
@@ -138,7 +139,7 @@ $('body').append(guiDiv);
             clans.forEach((clan, index) => {
                 updateOnlineCount(clan, index);
             });
-        }, 10000);
+        }, 15000);
     }
 
     $('#addClan').on('click', function() {
