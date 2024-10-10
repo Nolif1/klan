@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GRZYBY
 // @namespace    http://tampermonkey.net/
-// @version      3.0
+// @version      4.0
 // @description  Informuje o pojawieniu się grzybów na Discordzie
 // @author       Nolifequ
 // @icon         https://i.ibb.co/NrsXPQs/grzyb20-out-la.png
