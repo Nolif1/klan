@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         ꜱʜʀᴏᴏᴍꜱᴘᴏᴛᴛᴇʀ 8.0
+// @name         ꜱʜʀᴏᴏᴍꜱᴘᴏᴛᴛᴇʀ
 // @namespace    http://tampermonkey.net/
 // @version      8.0
 // @description  Informuje o pojawieniu się grzybów na Discordzie
