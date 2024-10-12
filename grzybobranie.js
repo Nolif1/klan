@@ -31,7 +31,7 @@
         popup.innerHTML = `
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <div>
-                    <strong></strong> <strong><span id="npcName">Brakssss</span><br></strong>
+                    <strong></strong> <strong><span id="npcName">Brakxxxs</span><br></strong>
                     <strong>Mapaaaa:</strong> <span id="mapName">Nieznanaaaaaaaaaa</span><br>
                     <strong>Znixxxknie za:</strong> <span id="killTime">Nieznandaday</span>
                 </div>
