@@ -7,6 +7,7 @@
 // @icon         https://i.ibb.co/NrsXPQs/grzyb20-out-la.png
 // @match        https://fobos.margonem.pl/
 // @grant        GM_xmlhttpRequest
+// @connect      raw.githubusercontent.com
 // @updateURL    https://raw.githubusercontent.com/Nolif1/klan/main/grzybobranie.user.js
 // @downloadURL  https://raw.githubusercontent.com/Nolif1/klan/main/grzybobranie.user.js
 // ==/UserScript==
