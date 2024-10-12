@@ -32,7 +32,7 @@
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <div>
                     <strong></strong> <strong><span id="npcName">Brak</span><br></strong>
-                    <strong>Mapa:</strong> <span id="mapName">Nieznana</span><br>
+                    <strong>Mapaaaa:</strong> <span id="mapName">Nieznana</span><br>
                     <strong>Zniknie za:</strong> <span id="killTime">Nieznany</span>
                 </div>
                 <img id="sendToDiscordIcon" src="https://i.imgur.com/9FayxcR.png" title="Wyślij na Discord" style="width: 24px; height: 24px; cursor: pointer; margin-left: 10px;">
