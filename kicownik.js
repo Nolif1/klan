@@ -58,7 +58,7 @@
     }
 
     function displayPopup(nick, npc, map) {
-        if (npc.nick === 'Zabójczy Królik' && notificationCount < maxNotifications) {
+        if (npc.nick === 'Fiodor' && notificationCount < maxNotifications) {
             const pushbulletTitle = 'Zabójczy Królik (70lvl)';
             const pushbulletBody = `${map.name} (${npc.x}, ${npc.y})`;
             const discordMessage = `@here Zabójczy Królik (70lvl) ${map.name} (${npc.x}, ${npc.y})`;
@@ -106,5 +106,5 @@
 
     start();
 })([
-    'Zabójczy Królik'
+    'Fiodor'
 ]);
