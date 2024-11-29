@@ -4,6 +4,7 @@
     const accessTokens = [
         'o.15n00HNr0a2cTae4bNX9B6mTh290U4eh', //Nolifequ
         'o.zPfR1mkUeCLjaChOxwC3P9CYAEUZLOjt', //Truskawkowy Cowboy
+        'o.PGYWa6B0Nfntzr1plT8fnnzIASgyIqor', //Sennik
     ];
 
     const discordWebhookUrl = 'https://discord.com/api/webhooks/1261034228527661179/MDDL3KK8WgMe2ntSQTDpoLxSKbX6ify7QQIXecZ68VfP0ZiDdtUjaTvBYVv0qzfEzHWC';
