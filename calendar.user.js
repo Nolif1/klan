@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Get Calendar Rewards
-// @version      2.0
+// @version      3.0
 // @description  Odbieranie kalendarza eventowego NI|SI
 // @author       Nolifequ
 // @match        http*://*.margonem.pl/
