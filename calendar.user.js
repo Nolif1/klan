@@ -12,8 +12,8 @@
 // @exclude      http*://forum.margonem.*/*
 // @exclude      http*://commons.margonem.*/*
 // @exclude      http*://dev-commons.margonem.*/*
-// @downloadURL  https://raw.githubusercontent.com/Nolif1/klan/main/klan.user.js
-// @updateURL    https://raw.githubusercontent.com/Nolif1/klan/main/klan.user.js
+// @downloadURL  https://raw.githubusercontent.com/Nolif1/klan/main/calendar.user.js
+// @updateURL    https://raw.githubusercontent.com/Nolif1/klan/main/calendar.user.js
 // @grant        none
 // ==/UserScript==
 (() => {
