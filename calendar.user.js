@@ -2,7 +2,7 @@
 // @name         Get Calendar Rewards
 // @version      3.0
 // @description  Odbieranie kalendarza eventowego NI|SI
-// @author       Nolifequ
+// @author       Libit poprawiony przez Nolifequ
 // @match        http*://*.margonem.pl/
 // @match        http*://*.margonem.com/
 // @exclude      http*://margonem.*/*
